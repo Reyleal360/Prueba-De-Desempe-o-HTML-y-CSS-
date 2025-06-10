@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(20, 52, 134);
+}
+.welcome{
+    background-color: rgb(39, 116, 119);
+}
+p{
+    color: #ffffff;
+}
+.subttitle{
+    color: #ffffff;
+}
+.p{
+    color: #ffffff;
+}
+.welcome{
+    color: #ffffff;
+    background-color: #2f84bd;
+}
+ul{
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}
+nav ul a {
+    padding: 20px;
+    color: #ffffff;
+    justify-content: center;
+
+}
+.title{
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+li a{
+    border-radius: 20%;
+    justify-content: end;
+    
+}
+
+span{
+    color: #6edbdf;
+}
+
+
+li:hover{
+    background-color: aquamarine;
+    border-radius: 2%;
+    color: black;
+    border-radius: 10%;
+    transition: 1s;
+    padding: 1%;
+
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    border-radius: 20%;
+}
+body{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Main*/
+
+.welcome{
+    padding: 2%;
+    border: 1px solid rgb(75, 75, 75);
+}
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 200px;
+}
+.sub-product{
+    text-align: center;
+    padding: 20px;
+}
+.product{
+    background-color: azure;
+    border: 1px solid rgb(178, 207, 207);
+}
+.container-text{
+    background-color: azure;
+    
+}
+
+.product-n:hover{
+    width: 100%; 
+}
+.container-products img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+nav ul{
+list-style: none;
+}
+
+.product-n img:hover{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+.container-products{
+    padding: 80px;
+    background-color: azure;
+}
+button{
+    border-radius: 20px;
+    background-color: aquamarine;
+    border: 1px solid aqua;
+}
+.sub-product{
+    background-color: rgb(158, 243, 243);
+}
+.tittle{
+    background-color: rgb(139, 207, 219);
+}
+.description{
+    background-color: aquamarine;
+    border-radius: 10%;
+}
+
+
+
+.welcome{
+    padding: 10%;
+    width: auto;
+    max-width: 100%;
+}
+
+.imagen-responsiva {
+    max-width: 100%;
+    height: 100%;
+  }
+/* Para pantallas pequeñas */
+@media (max-width: 768px) {
+    .imagen-responsiva {
+      width: 100%; /* O cualquier otro tamaño deseado */
+    }
+  }
+  
+  /* Para pantallas medianas */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .imagen-responsiva {
+      width: 80%; /* O cualquier otro tamaño deseado */
+    }
+  }
+  
+  /* Para pantallas grandes */
+  @media (min-width: 1025px) {
+    .imagen-responsiva {
+      width: 60%; /* O cualquier otro tamaño deseado */
+    }
+  }
+
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #021414;
+}
+.form{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+}
+.sent{
+    padding: 20px;
+    border-radius: 20px;
+}
+@media (max-width: 900px) {
+    .container-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .container-products {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-form {
+    width: 100%; /* Ancho completo del formulario de contacto */
+    height: auto; /* Altura automática para adaptarse al contenido */
+    background-color: #021414; /* Color de fondo oscuro */
+    color: #ffffff; /* Color del texto en blanco */
+    padding: 20px; /* Espaciado interno de 20px */
+    display: flex; /* Usar flexbox para el diseño */
+    flex-direction: column; /* Disposición en columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+}
+
+.contact-form h1 {
+    margin-bottom: 20px; /* Margen inferior de 20px para el título */
+}
+
+.form-group {
+    width: 100%; /* Ancho completo para cada grupo de formulario */
+    margin-bottom: 15px; /* Margen inferior de 15px entre grupos */
+}
+
+.form-group label {
+    display: block; /* Mostrar la etiqueta como bloque */
+    margin-bottom: 5px; /* Margen inferior de 5px para separación */
+}
+
+.form-group textarea {
+    width: 100%; /* Ancho completo para campos de entrada y área de texto */
+    padding: 10px; /* Espaciado interno de 10px */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: rgb(0, 0, 0); /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+    background-color: #2cd2d8; /* Color de fondo al pasar el mouse sobre el botón */
+}
